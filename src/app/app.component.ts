@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ListaBerardo';
+
+  listaAlumnos = [ 'juan', 'alexis', 'adrian', 'franco', 'julieta' ];
+
+  cantAlumnos: number = this.listaAlumnos.length;
+
+  capacidad = 3;
+
 }
